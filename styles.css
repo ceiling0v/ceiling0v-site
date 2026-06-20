@@ -1,0 +1,59 @@
+@font-face {
+    font-family: defaultFont;
+    src: url(assets/JetBrainsMono-Light.ttf);
+}
+
+code {
+    font-family: defaultFont;
+}
+
+body {
+    padding-left: 32px;
+    padding-right: 32px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    text-shadow: 3px 3px 3px rgba(1, 1, 1, 0.75);
+    color: white;
+    background-color: black;
+    font-family: defaultFont;
+}
+
+p {
+    text-align:left;
+    font-size:24px;
+    max-width:960px;
+    margin:auto;
+}
+
+hr {
+    color:white;
+}
+
+a {
+    color: cyan;
+}
+
+a.external::after {
+    content: "↗";
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 52px;
+}
+
+h3 {
+    font-size: 42px;
+    font-family: defaultFont;
+    text-align: center;
+}
+
+li {
+    padding-bottom: 12px
+}
